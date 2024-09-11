@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="./css/output.css" rel="stylesheet" />
+  </head>
+  <body class="bg-gray-100 flex items-center justify-center min-h-screen">
+    <!-- https://placehold.co/600x400 -->
+    <div
+      class="max-w-[440px] min-w-[315px] min-h-[380px] bg-white rounded-sm shadow-lg overflow-hidden relative"
+    >
+      <!-- Картинка -->
+      <div
+        class="relative h-52 bg-gray-300 bg-cover bg-center"
+        style="background-image: url('your-image.jpg')"
+      >
+        <button
+          class="absolute bg-white top-2 right-2 text-xs text-gray-500 hover:text-gray-700 border border-gray-300 px-2 py-1 rounded-md"
+        >
+          button
+        </button>
+      </div>
+
+      <div
+        class="absolute inset-0 top-[55%] bg-white p-4 transition-all duration-300 ease-in-out hover:top-[25%] z-10 hover:border-b-2 hover:border-gray-200 group"
+      >
+        <div
+          class="border-b-0 border-gray-100 pb-1 mb-1 group-hover:border-b-2 group-hover:border-gray-100 transition-all ease-in-out"
+        >
+          <div class="flex items-center justify-between">
+            <div class="flex flex-col items-left justify-between">
+              <h3 class="text-sm text-gray-400 font-extralight">Subheader</h3>
+              <h2 class="text-2xl  font-regular">Header</h2>
+            </div>
+
+            <div class="flex items-center justify-between">
+              <div class="right-4 top-[20%] text-lg font-regular">Text</div>
+            </div>
+          </div>
+        </div>
+
+        <button
+          class="group-hover:hidden w-full mt-2 bg-gray-500 text-white py-3 rounded-lg hover:bg-gray-600"
+        >
+          Button
+        </button>
+        <p class="group-hover:hidden text-center text-xs font-extralight text-gray-500 mt-2">
+          Sub text
+        </p>
+
+        <div
+          class="space-y-2 opacity-0 group-hover:opacity-100 transition-opacity duration-500"
+        >
+          <div class="flex justify-between">
+            <p class="text-black-700 font-thin text-sm">Text</p>
+            <a href="#" class="text-gray-500 text-sm">Link</a>
+          </div>
+          <div class="flex justify-between">
+            <p class="text-black-700 font-thin text-sm">Text</p>
+            <a href="#" class="text-gray-500 text-sm">Link</a>
+          </div>
+          <div class="flex justify-between">
+            <p class="text-black-700 font-thin text-sm">Text</p>
+            <a href="#" class="text-gray-500 text-sm">Link</a>
+          </div>
+          <div class="flex justify-between">
+            <p class="text-black-700 font-thin text-sm">Text</p>
+            <a href="#" class="text-gray-500 text-sm">Link</a>
+          </div>
+        </div>
+
+        <button
+          class="w-full mt-4 bg-gray-500 text-white py-3 rounded-lg hover:bg-gray-600"
+        >
+          Button
+        </button>
+
+        <p class="text-center text-xs font-extralight text-gray-500 mt-2">Sub text</p>
+      </div>
+    </div>
+  </body>
+</html>
